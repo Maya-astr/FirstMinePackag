@@ -9,5 +9,4 @@ public class main {
         Dog dog= new Dog("Арчи", "черно-рыжий", 6, "Майя", 25, 100);
         dog.Dog();
     }
-
 }

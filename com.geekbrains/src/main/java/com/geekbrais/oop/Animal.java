@@ -19,7 +19,6 @@ public class Animal {
         System.out.println("Собака " + name + "   бежит  " + run + "   метров");
         System.out.println("Собака " + name + "   плывет  " + sail + "   метров");
     }
-
 }
 
 
