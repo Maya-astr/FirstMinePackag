@@ -6,7 +6,6 @@ public class Animal {
     protected String masterName;
     protected int run;
     protected int sail;
-
     public  Animal(){}
 
     public Animal(String name, String color, int age, String masterNameint, int run, int sail) {
