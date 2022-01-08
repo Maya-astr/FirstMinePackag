@@ -7,6 +7,16 @@ public class main {
         Cat cat2 = new Cat("Филя", "Рыжий", 1, "Виктория", 0, 150);
         Cat cat7 = new Cat("Привет", "Русский-голубой",3, "Виктор", 0,50);
         Dog dog= new Dog("Арчи", "черно-рыжий", 6, "Майя", 25, 100);
+        Tiger tiger = new Tiger("Амур", "Альбинос",7, "в вольере");
+        cat.setFeed("китти-кет");
+        tiger.setFoto(" В зоопарке");
+
+
         dog.Dog();
+        cat.Cat();
+        cat.Tiger();
+        cat7.Cat();
+
+
     }
 }
