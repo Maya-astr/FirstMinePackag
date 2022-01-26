@@ -1,11 +1,12 @@
 package com.geekbrais.oop;
+
 public class Animal {       // Animal- это предок, от него создаются все объекты- животные
-    protected String name;
-    protected String color;
-    protected int age;
-    protected String masterName;
-    protected int run;
-    protected int sail;
+    String name;
+    String color;
+    int age;
+    String masterName;
+    int run;
+    int sail;
     public  Animal(){}
     public Animal(String name, String color, int age, String masterNameint, int run, int sail) {
         System.out.println("Создается объект  "+ name);
@@ -22,19 +23,17 @@ public class Animal {       // Animal- это предок, от него соз
 
     }
     public void Cat(){
-        System.out.println("Кот " + name + "   прекрасно себя чувствует, когда ест"); // не добавляется -feed
+        System.out.println("Кот " + name + "   прекрасно себя чувствует, когда ест"); // не добавляется  + feed
         
     }
     public void Tiger(){
-        System.out.println("Тигр " + name + "   прекрасно себя чувствует  ");// вообще не выводитсяне, не добавляется -fото
+        System.out.println("Тигр " + name + "   прекрасно себя чувствует  ");// вообще не выводится, не добавляется + fото
 
     }
     public void Cat7(){
         System.out.println("Кот " + name + "   прекрасно себя чувствует, когда ест"); // не добавляется -feed
 
     }
-
-
 }
 
 

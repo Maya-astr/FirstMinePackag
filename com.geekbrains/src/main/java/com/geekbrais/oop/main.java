@@ -14,7 +14,7 @@ public class main {
 
         dog.Dog();
         cat.Cat();
-        cat.Tiger();
+        //tiger.foto();
         cat7.Cat();
 
 
